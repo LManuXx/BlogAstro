@@ -1,29 +1,35 @@
-html {
-    background-color: #252424;
-    font-family: sans-serif;
-    color: #c9c9c9;
-    
-    
-  }
+/* Estilos globales */
 
-  a{
-    text-decoration: none;
-    color: #c9c9c9;
-  }
-  
-  body {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 80ch;
-    padding: 1rem;
-    line-height: 1.5;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  h1 {
-    margin: 1rem 0;
-    font-size: 2.5rem;
-  }
+/* Establece el fondo de la página */
+html {
+  background-color: #f5f5f5; /* Un tono neutro para el fondo */
+  font-family: 'Roboto', sans-serif; /* Cambié la fuente a Roboto, una fuente moderna y legible */
+  color: #333; /* Texto principal en un tono oscuro */
+}
+
+/* Estilos para los enlaces */
+a {
+  text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+  color: #ff6f61; /* Un tono de rojo coral para destacar los enlaces */
+}
+
+/* Estilos para el cuerpo del blog */
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px; /* Cambié a un máximo de 800px para un diseño más centrado y fácil de leer */
+  padding: 20px; /* Un poco más de espacio alrededor del contenido */
+  line-height: 1.6; /* Un espacio entre líneas ligeramente más grande para una mejor legibilidad */
+}
+
+/* Incluir el box-sizing para todos los elementos */
+* {
+  box-sizing: border-box;
+}
+
+/* Estilos para los títulos */
+h1 {
+  margin: 1.5rem 0; /* Un poco más de espacio alrededor de los títulos */
+  font-size: 2.8rem; /* Hice el título un poco más grande para enfatizar */
+  color: #2c3e50; /* Un tono de azul oscuro para los títulos */
+}
