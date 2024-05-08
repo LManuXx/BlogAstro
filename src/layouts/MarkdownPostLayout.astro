@@ -1,0 +1,38 @@
+---
+const { frontmatter } = Astro.props;
+---
+<h1>{frontmatter.title}</h1>
+<p>Escrito por {frontmatter.author}</p>
+<slot />
+
+<style>
+    html {
+    background-color: #252424;
+    font-family: sans-serif;
+    color: #c9c9c9;
+    
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: #c9c9c9;
+  }
+  
+  body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80ch;
+    padding: 1rem;
+    line-height: 1.5;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+  }
+</style>
